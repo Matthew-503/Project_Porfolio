@@ -17,6 +17,11 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+
+export const Span = styled.span`
+  font-size: 2rem;
+`;
+
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
@@ -26,6 +31,7 @@ export const Div1 = styled.div`
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
+
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
@@ -34,6 +40,7 @@ export const Div2 = styled.div`
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
+
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
@@ -61,7 +68,7 @@ export const NavLink = styled.a`
   }
 `;
 
-/// DropDown Contact
+// DropDown Contact
 export const ContactDropDown = styled.button`
   border: none;
   display: flex;
@@ -109,7 +116,6 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 
 
 // Social Icons 
-
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
 color: white;
@@ -121,4 +127,4 @@ border-radius: 50px;
     cursor: pointer;
     
   }
-`
+`;
