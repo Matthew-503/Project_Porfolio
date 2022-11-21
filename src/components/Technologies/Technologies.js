@@ -28,11 +28,11 @@ const Technologies = () => (
           </ListTitle>
 
           <ListParagraph>
-            Experience with 
+            Experience with
             <br />
             React.js
           </ListParagraph>
-        </ListContainer>    
+        </ListContainer>
       </ListItem>
 
       <ListItem>
@@ -44,11 +44,11 @@ const Technologies = () => (
           </ListTitle>
 
           <ListParagraph>
-            Experience with 
+            Experience with
             <br />
             Node.js and MongoDB
           </ListParagraph>
-        </ListContainer>    
+        </ListContainer>
       </ListItem>
 
       <ListItem>
@@ -60,11 +60,11 @@ const Technologies = () => (
           </ListTitle>
 
           <ListParagraph>
-            Experience with 
+            Experience with
             <br />
             tools like Figma
           </ListParagraph>
-        </ListContainer>    
+        </ListContainer>
       </ListItem>
     </List>
   </Section>
