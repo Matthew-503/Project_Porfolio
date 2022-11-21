@@ -42,9 +42,11 @@ const Header = () => (
       <SocialIcons href="https://github.com/Matthew-503">
         <AiFillGithub size="3rem" />
       </SocialIcons>
+
       <SocialIcons href="https://www.linkedin.com/in/matthew-ng-2b5619222/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
+      
       <SocialIcons href="https://www.instagram.com/matthew_ng.22/">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
