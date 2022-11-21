@@ -21,6 +21,6 @@ const Hero = (props) => (
       </Button>
     </LeftSection>
   </Section>
-);
+); 
 
 export default Hero;
