@@ -22,8 +22,8 @@ export const projects = [
     description: "Sharing is caring. This blogs will be posted here for people who want to dive into various tech topics",
     image: '/images/3.png',
     tags: ['HTML','CSS', 'Markdown'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/Matthew-503/Matthew-503.github.io',
+    visit: 'https://matthew-503.github.io/',
     id: 2,
   },
   {
