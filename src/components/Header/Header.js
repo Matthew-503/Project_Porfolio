@@ -1,57 +1,26 @@
-import Link from 'next/link'; // Linking Pages
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'; // Styling
-import { DiCssdeck } from 'react-icons/di'; // Styling
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles'; // Styling
+// Styling in following 2 is used across the whole application from styles
+import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents'; // Styling
+import Button from '../../styles/GlobalComponents/Button'; // Styling
 
-const Header = () => (
-  <Container>
-    {/* Nav Bar: Logo + name */}
-    <Div1>
-      <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color: "white", marginBottom: "20px" }}>
-          <DiCssdeck size="3rem" />
-          {/* Custom styling Span + added in import */}
-          <Span>Portfolio</Span>
-        </a>
-      </Link>
-    </Div1>
+import { LeftSection } from './HeaderStyles'; // Styling
 
-    {/* Nav Bar: Titles */}
-    <Div2>
-      <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>
-    </Div2>
-
-    {/* Nav Bar: Icons */}
-    <Div3>
-      <SocialIcons href="https://github.com/Matthew-503">
-        <AiFillGithub size="3rem" />
-      </SocialIcons>
-
-      <SocialIcons href="https://www.linkedin.com/in/matthew-ng-2b5619222/">
-        <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      
-      <SocialIcons href="https://www.instagram.com/matthew_ng.22/">
-        <AiFillInstagram size="3rem" />
-      </SocialIcons>
-    </Div3>
-  </Container>
+const Header = (props) => (
+  <Section row nopadding>
+    <LeftSection>
+      <SectionTitle main center>
+        Welcome To <br />
+        Matthew's Portfolio
+      </SectionTitle>
+      <SectionText>
+        A web developer and UX/UI designer based in Calgary, Canada. Passionate about creating interactive applications and experiences on the web
+      </SectionText>
+      <Button onClick={() => window.location = "https://google.com"}>
+        Learn More
+      </Button>
+    </LeftSection>
+  </Section>
 );
 
 export default Header;
