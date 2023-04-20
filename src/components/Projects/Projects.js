@@ -4,7 +4,7 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents'; // Styling
 
 // project properties will be taked from here
-import { projects } from '../../constants/constants';
+import { projects } from '../../Assets/Data';
 
 const Projects = () => (
   <Section nopadding id="projects">
