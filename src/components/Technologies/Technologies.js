@@ -30,7 +30,7 @@ const Technologies = () => (
           <ListParagraph>
             Experience with
             <br />
-            React.js
+            React.js and Tailwind
           </ListParagraph>
         </ListContainer>
       </ListItem>
