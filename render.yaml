@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: portfolio-503
+    buildCommand: |
+      cd .. && npm install && npm run build
+    startCommand: npm run dev
