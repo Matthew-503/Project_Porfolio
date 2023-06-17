@@ -27,12 +27,12 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "Sharing is caring. This blogs will be posted here for people who want to dive into various tech topics",
+    title: 'BrieflyAI',
+    description: "Let AI merge into your daily life by summarizing your reading, giving you the extra boost you need",
     image: '/images/4.png',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['React', 'RapidAPI', 'Tailwind'],
+    source: 'https://github.com/Matthew-503/project_ai-summarizer',
+    visit: 'https://breiflyai.vercel.app/',
     id: 3,
   },
 ];
