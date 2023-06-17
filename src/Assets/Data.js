@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'BrieflyAI',
     description: "Let AI merge into your daily life by summarizing your reading, giving you the extra boost you need",
-    image: '/images/4.png',
+    image: '/images/5.png',
     tags: ['React', 'RapidAPI', 'Tailwind'],
     source: 'https://breiflyai.vercel.app/',
     visit: 'https://github.com/Matthew-503/project_ai-summarizer',
