@@ -21,7 +21,7 @@ const Projects = () => (
       {
         // all project properties used will be extracted from constant.js
         // all all project properties used will be listed in the map area to avoid repeation 
-        projects.map(({ id, image, title, description, tags, source, visit }) => (
+        projects.map(({ id, image, title, description, tags, source, code }) => (
           <BlogCard key={id}>
             <Img src={image} />
 
@@ -54,7 +54,7 @@ const Projects = () => (
             </div>
 
             <UtilityList>
-              <ExternalLinks href={visit}>
+              <ExternalLinks href={code}>
                 Code
               </ExternalLinks>
 
