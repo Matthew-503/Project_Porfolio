@@ -59,7 +59,7 @@ const Projects = () => (
               </ExternalLinks>
 
               <ExternalLinks href={source}>
-                Source
+                Website
               </ExternalLinks>
             </UtilityList>
           </BlogCard>
