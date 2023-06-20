@@ -5,7 +5,7 @@ export const projects = [
     image: '/images/4.png',
     tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://google.com',
-    code: 'https://google.com',
+    code: 'https://github.com/Matthew-503/BioJewellery-Capstone',
     id: 0,
   },
   {
@@ -13,8 +13,8 @@ export const projects = [
     description: "Using MERN stack, my team created a fully functional e-commerce website for a startup company that is now based in Calgary. ",
     image: '/images/4.png',
     tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    code: 'https://google.com',
+    source: 'restaurant-503.vercel.app',
+    code: 'https://github.com/Matthew-503/Project_Restaurant-Application',
     id: 1,
   },
   {
