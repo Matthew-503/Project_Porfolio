@@ -40,7 +40,7 @@ const Projects = () => (
             </CardInfo>
 
             <div>
-              <TitleContent>
+              <TitleContent style={"margin=10px"}>
                 Stack
               </TitleContent>
 
