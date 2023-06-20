@@ -5,7 +5,7 @@ export const projects = [
     image: '/images/4.png',
     tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    code: 'https://google.com',
     id: 0,
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/4.png',
     tags: ['React', 'JavaScript'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    code: 'https://google.com',
     id: 1,
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
     image: '/images/3.png',
     tags: ['HTML', 'CSS', 'Markdown'],
     source: 'https://github.com/Matthew-503/Matthew-503.github.io',
-    visit: 'https://matthew-503.github.io/',
+    code: 'https://matthew-503.github.io/',
     id: 2,
   },
   {
@@ -32,7 +32,7 @@ export const projects = [
     image: '/images/5.png',
     tags: ['React', 'RapidAPI', 'Tailwind'],
     source: 'https://breiflyai.vercel.app/',
-    visit: 'https://github.com/Matthew-503/project_ai-summarizer',
+    code: 'https://github.com/Matthew-503/project_ai-summarizer',
     id: 3,
   },
 ];
