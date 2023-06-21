@@ -4,7 +4,7 @@ export const projects = [
     description: "Using MERN stack, my team created a fully functional e-commerce website for a startup company that is now based in Calgary",
     image: '/images/4.png',
     tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
+    source: 'https://biojewelryapp.onrender.com/',
     code: 'https://github.com/Matthew-503/BioJewellery-Capstone',
     id: 0,
   },
