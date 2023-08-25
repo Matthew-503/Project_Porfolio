@@ -13,7 +13,7 @@ export const projects = [
     description: "A cutting-edge restaurant webpage using React and CSS unite for a captivating modern design",
     image: '/images/4.png',
     tags: ['React', 'JavaScript'],
-    source: 'restaurant-503.vercel.app',
+    source: 'https://restaurant-503.vercel.app/',
     code: 'https://github.com/Matthew-503/Project_Restaurant-Application',
     id: 1,
   },
