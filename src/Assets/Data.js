@@ -24,7 +24,7 @@ export const projects = [
     tags: ['React', 'RapidAPI', 'Tailwind'],
     source: 'https://breiflyai.vercel.app/',
     code: 'https://github.com/Matthew-503/project_ai-summarizer',
-    id: 2,
+    id: 1,
   },
   {
     title: 'Blog',
@@ -33,7 +33,7 @@ export const projects = [
     tags: ['HTML', 'CSS', 'Markdown'],
     source: 'https://github.com/Matthew-503/Matthew-503.github.io',
     code: 'https://matthew-503.github.io/',
-    id: 1,
+    id: 2,
   },
 ];
 
