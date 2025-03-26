@@ -18,15 +18,6 @@ export const projects = [
   //   id: 1,
   // },
   {
-    title: 'Blog',
-    description: "Sharing is caring. This blogs will be posted here for people who want to dive into various tech topics",
-    image: '/images/3.png',
-    tags: ['HTML', 'CSS', 'Markdown'],
-    source: 'https://github.com/Matthew-503/Matthew-503.github.io',
-    code: 'https://matthew-503.github.io/',
-    id: 1,
-  },
-  {
     title: 'BrieflyAI',
     description: "Let AI merge into your daily life by summarizing your reading, giving you the extra boost you need",
     image: '/images/5.png',
@@ -34,6 +25,15 @@ export const projects = [
     source: 'https://breiflyai.vercel.app/',
     code: 'https://github.com/Matthew-503/project_ai-summarizer',
     id: 2,
+  },
+  {
+    title: 'Blog',
+    description: "Sharing is caring. This blogs will be posted here for people who want to dive into various tech topics",
+    image: '/images/3.png',
+    tags: ['HTML', 'CSS', 'Markdown'],
+    source: 'https://github.com/Matthew-503/Matthew-503.github.io',
+    code: 'https://matthew-503.github.io/',
+    id: 1,
   },
 ];
 
