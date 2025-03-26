@@ -22,7 +22,7 @@ const Navbar = () => (
     <Div2>
       <li>
         <Link href="#projects">
-          <NavLink>HelloHello</NavLink>
+          <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
