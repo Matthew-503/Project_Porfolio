@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'BioJewelery E-Commerce',
-    description: "Using MERN stack, my team created a fully functional e-commerce website for a startup company that is now based in Calgary",
+    description: "Using MERN stack, a fully functional e-commerce website for a startup company based in Calgary",
     image: '/images/4.png',
     tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://biojewelryapp.onrender.com/',
