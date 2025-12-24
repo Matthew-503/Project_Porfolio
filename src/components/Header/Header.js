@@ -11,7 +11,7 @@ const Header = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Welcome To <br />
-        Matthew's Portfolio
+        Kim's Portfolio
       </SectionTitle>
       <SectionText>
         A web developer and UX/UI designer based in Calgary, Canada. Passionate about creating interactive applications and experiences on the web
